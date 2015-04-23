@@ -7,8 +7,7 @@
     "url": "git-url"
   },
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "webpack": "~1.8.2",
     "react-tools": "~0.13.1",
     "react": "~0.13.1",
