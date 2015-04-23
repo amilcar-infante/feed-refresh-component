@@ -4,10 +4,12 @@ var React = require('react/addons'),
     RightSidebar = require('right-sidebar.png'),
     IpadStatusBar = require('status-bar-iPad.png');
 
+require('facebookFeedRefresh.css');
+
 module.exports = React.createClass({
     render: function() {
         return (
-            <div>
+            <div className='facebook-feed-refresh'>
                 <div className='fb-header' />
                 <img src={IpadStatusBar} className='status-bar' />
                 <Feed />

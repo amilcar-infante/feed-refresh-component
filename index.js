@@ -1,1 +1,1 @@
-module.exports = require('./src/scripts/components/feed.jsx');
+module.exports = require('./src/scripts/components/facebookFeedRefresh.jsx');
