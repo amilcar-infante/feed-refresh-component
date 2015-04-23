@@ -4,12 +4,13 @@ var React = require('react/addons'),
     PostFeedActions = require('../actions/postFeedActions.js'),
     PostFeedStore = require('../stores/postFeedStore.js'),
     PostComponent = require('./post.jsx'),
+    Configuration = require('configuration.js').feed,
     ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
 require('jquery-ui/draggable');
 require('jquery-ui-touch-punch');
-require('../../styles/feed.css');
-require('http://css-spinners.com/css/spinner/refreshing.css');
+require('feed.css');
+require('spinner.css');
 
 module.exports = React.createClass({
     mixins: [
@@ -33,7 +34,7 @@ module.exports = React.createClass({
                 that.setState ({
                     toggleInProgress: false
                 });
-            }, this.props.conf.postLoadingDelay
+            }, Configuration.postLoadingDelay
         );
     },
     componentDidMount: function () {

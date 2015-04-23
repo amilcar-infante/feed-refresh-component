@@ -1,6 +1,6 @@
 var React = require('react/addons'),
-    Configuration = require('../configuration.js'),
     Lodash = require('lodash'),
+    Configuration = require('configuration.js').feed,
     Reflux = require('reflux');
 
 var data = [];
@@ -10,7 +10,8 @@ module.exports = Reflux.createStore({
 
     init: function () {
         console.log('PostFeedStoreStore initialized');
-        // This function will be called when the store will be first initialized
+        // This function will be called when the store will be first initialized        
+        
         posts = {};
 
         posts.initialPosts = Lodash.filter(

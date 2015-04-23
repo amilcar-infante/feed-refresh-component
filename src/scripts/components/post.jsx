@@ -1,5 +1,4 @@
-var React = require('react/addons');
-    Configuration = require('../configuration.js'),
+var React = require('react/addons'),
     arrowImg = require('arrow.png');
 
 require('../../styles/post.css');
