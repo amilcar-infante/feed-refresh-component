@@ -57,4 +57,3 @@ module.exports = Reflux.createStore({
         );
     }
 });
-

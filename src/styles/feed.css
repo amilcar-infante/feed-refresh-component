@@ -45,8 +45,7 @@
     }
 }    
 
-/* ipad 3, 4 */ 
-
+/* ipad 3, 4 */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .feed-container {
         margin-top: 2%;
@@ -54,7 +53,7 @@
     }
 
     .feed-container ul.post-feed {
-        margin: 0 10%;;
+        margin: 0 10%;
     }
 
     .post-feed .post-buttons {

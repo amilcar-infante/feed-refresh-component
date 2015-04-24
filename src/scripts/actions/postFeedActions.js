@@ -7,4 +7,3 @@ module.exports = Reflux.createActions([
     'removePost',
     'togglePost'
 ]);
-

@@ -4,9 +4,9 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git-url"
+    "url": "https://github.com/salesforce-demos/feed-refresh"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "webpack": "~1.8.2",
     "react-tools": "~0.13.1",

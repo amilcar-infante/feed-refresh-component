@@ -72,35 +72,36 @@
 
 /* :not(:required) hides this rule from IE9 and below */
 .refreshing:not(:required) {
-  -webkit-animation: spinner 1000ms infinite linear;
-  -moz-animation: spinner 1000ms infinite linear;
-  -ms-animation: spinner 1000ms infinite linear;
-  -o-animation: spinner 1000ms infinite linear;
-  animation: spinner 1000ms infinite linear;
-  -webkit-border-radius: 2.4em;
-  -moz-border-radius: 2.4em;
-  -ms-border-radius: 2.4em;
-  -o-border-radius: 2.4em;
-  border-radius: 2.4em;
-  border: 0.4em solid #99aacc;
-  border-left-color: transparent;
-  color: transparent;
-  display: inline-block;
-  font-size: 10px;
-  line-height: 1.2;
-  width: 3em;
-  height: 3em;
-  text-indent: 100%;
+    -webkit-animation: spinner 1000ms infinite linear;
+    -moz-animation: spinner 1000ms infinite linear;
+    -ms-animation: spinner 1000ms infinite linear;
+    -o-animation: spinner 1000ms infinite linear;
+    animation: spinner 1000ms infinite linear;
+    -webkit-border-radius: 2.4em;
+    -moz-border-radius: 2.4em;
+    -ms-border-radius: 2.4em;
+    -o-border-radius: 2.4em;
+    border-radius: 2.4em;
+    border: 0.4em solid #99aacc;
+    border-left-color: transparent;
+    color: transparent;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 1.2;
+    width: 3em;
+    height: 3em;
+    text-indent: 100%;
 }
+
 .refreshing:not(:required):after {
-  display: block;
-  border: 0.5em solid transparent;
-  border-top-color: #99aacc;
-  border-left-color: #99aacc;
-  content: '';
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  margin-left: -0.2em;
-  margin-top: 1em;
+    display: block;
+    border: 0.5em solid transparent;
+    border-top-color: #99aacc;
+    border-left-color: #99aacc;
+    content: '';
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin-left: -0.2em;
+    margin-top: 1em;
 }
