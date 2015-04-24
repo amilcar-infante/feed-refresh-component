@@ -4,6 +4,9 @@ var React = require('react/addons'),
 require('../../styles/post.css');
 
 module.exports = React.createClass({
+    postLikeCommentClass: function (element) {
+        return element > 0 | element.length > 0 ? 'container' : 'hidden';
+    },
     render: function() {
         var post = this.props.post,
             postStateClass = post.state ? 
@@ -33,9 +36,15 @@ module.exports = React.createClass({
                         <img src={post.image}/>
                     </li>
                     <li className='post-like-comment'>
-                        <span className='container'>{post.likes} Likes</span>
-                        <span className='container'>{post.comments} Comments</span>
-                        <span className='container'>{post.views} Views</span>
+                        <span className={this.postLikeCommentClass(post.likes)}>
+                            {post.likes} Likes
+                        </span>
+                        <span className={this.postLikeCommentClass(post.comments)}>
+                            {post.comments} Comments
+                        </span>
+                        <span className={this.postLikeCommentClass(post.views)}>
+                            {post.views} Views
+                        </span>
                     </li>                    
                 </ul>
                 <div className='post-buttons' />
@@ -43,3 +52,4 @@ module.exports = React.createClass({
         );
     }
 });
+

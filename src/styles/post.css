@@ -98,14 +98,17 @@ li.post-image img {
 }
 
 li.post-like-comment {
-    margin-top: 3%;
-    margin-left: 3%;
+    margin: 3%;
     font-size: 0.9em;
     color: #9197a3;
 }
 
 li.post-like-comment .container {
     margin-right: 3%;
+}
+
+li.post-like-comment .hidden {
+    display: none;
 }
 
 /* Media queries */
