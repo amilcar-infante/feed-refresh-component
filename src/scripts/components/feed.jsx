@@ -4,7 +4,7 @@ var React = require('react/addons'),
     PostFeedActions = require('../actions/postFeedActions.js'),
     PostFeedStore = require('../stores/postFeedStore.js'),
     PostComponent = require('./post.jsx'),
-    Configuration = require('configuration.js').feed,
+    Configuration = require('configuration.js').feedRefresh,
     ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
 
 require('jquery-ui/draggable');

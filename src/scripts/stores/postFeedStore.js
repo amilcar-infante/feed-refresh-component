@@ -1,6 +1,6 @@
 var React = require('react/addons'),
     Lodash = require('lodash'),
-    Configuration = require('configuration.js').feed,
+    Configuration = require('configuration.js').feedRefresh,
     Reflux = require('reflux');
 
 var data = [];
